@@ -1,13 +1,13 @@
 import React, { useState } from "react";
 import "./SideBar.css";
-import schoolLogo from "../../assets/schoolLogo1.png";
-import homeIcon from "../../assets/pngfind.com-home-icon-png-1819775.png";
-import studentIcon from "../../assets/student_education_man_bachelor_boy_-512.webp";
-import teacherIcon from "../../assets/1980233-200.png";
-import eventIcon from "../../assets/pngegg.png";
-import courseIcon from "../../assets/12.webp";
-import userIcon from "../../assets/user-128-128.png";
-import activityIcon from "../../assets/activity_icon_151646.png";
+import schoolLogo from "../../../assets/School-logo.svg";
+import homeIcon from "../../../assets/Home-icon.svg";
+import studentIcon from "../../../assets/Student-icon.svg";
+import teacherIcon from "../../../assets/Teacher-icon.svg";
+import eventIcon from "../../../assets/Event-icon.svg";
+import courseIcon from "../../../assets/Course-icon.svg";
+import userIcon from "../../../assets/User-icon.svg";
+import activityIcon from "../../../assets/Activity-icon.svg";
 
 export default function SideBar() {
   const [activeDashBoard, setActiveDashBoard] = useState(false);

@@ -5,6 +5,7 @@
 
 .middleContainer {
   width: 100%;
+  margin: 0 12.9em;
 }
 
 .topHeader > h1 {
@@ -75,4 +76,15 @@
   height: 40px;
   width: 130px;
   font-weight: 600;
+}
+
+.teacherList {
+  margin-left: 1.6em;
+}
+
+.teacherListRow1,
+.teacherListRow2,
+.teacherListRow3 {
+  display: flex;
+  justify-content: center;
 }

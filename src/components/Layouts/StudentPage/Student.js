@@ -7,14 +7,14 @@ import TwitterIcon from "@mui/icons-material/Twitter";
 import NotificationsNoneOutlinedIcon from "@mui/icons-material/NotificationsNoneOutlined";
 import PermIdentityOutlinedIcon from "@mui/icons-material/PermIdentityOutlined";
 import AddIcon from "@mui/icons-material/Add";
-import ColorButtons from "../Button";
-import SearchInput from "../SearchInput";
-import SideBar from "../SideBar/SideBar";
+import ColorButtons from "../../Button";
+import SearchInput from "../../SearchInput";
+import SideBar from "../../Common/SideBar/SideBar";
 import "./Student.css";
-import DataTable from "../StudentTable";
-import schoolLogo from "../../assets/Screenshot (7) 4.png";
+import DataTable from "../../StudentTable";
+import schoolLogo from "../../../assets/Screenshot (7) 4.png";
 // import copyrightLogo from "../../assets/Copyright-2023_-School-Zilla-Pvt.-Ltd..svg";
-import { ReactComponent as copyRightLogo } from "../../assets/Copyright-2023_-School-Zilla-Pvt.-Ltd..svg";
+import { ReactComponent as copyRightLogo } from "../../../assets/Copyright-2023_-School-Zilla-Pvt.-Ltd..svg";
 
 export default function Student() {
   return (
@@ -23,7 +23,7 @@ export default function Student() {
         <SideBar />
         <div className="middleContainer">
           <div className="topHeader">
-            <h1>Students</h1>
+            <h2>Students</h2>
             <div className="profileMenu">
               <IconButton color="primary" aria-label="add an alarm">
                 <NotificationsNoneOutlinedIcon color="disabled" />
