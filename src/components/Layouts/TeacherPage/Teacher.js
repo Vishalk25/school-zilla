@@ -24,10 +24,13 @@ export default function Teacher() {
         <SideBar />
         <div className="middleContainer">
           <div className="topHeader">
-            <h1>Teachers</h1>
+            <p>Teachers</p>
             <div className="profileMenu">
               <IconButton color="primary" aria-label="add an alarm">
-                <NotificationsNoneOutlinedIcon color="disabled" />
+                <NotificationsNoneOutlinedIcon
+                  color="disabled"
+                  style={{ fontSize: "2.5rem" }}
+                />
               </IconButton>
               <div className="profileName">
                 <p>
@@ -37,14 +40,17 @@ export default function Teacher() {
                 </p>
               </div>
               <div className="profileAvatar">
-                <PermIdentityOutlinedIcon color="disabled" />
+                <PermIdentityOutlinedIcon
+                  color="disabled"
+                  style={{ fontSize: "2.5rem" }}
+                />
               </div>
             </div>
           </div>
           <div className="middleHeader">
             <SearchInput />
             <ColorButtons parentClassName="addStudent">
-              <AddIcon /> New Teacher
+              <AddIcon style={{ fontSize: "2.5rem" }} /> New Teacher
             </ColorButtons>
           </div>
           <div className="teacherList">

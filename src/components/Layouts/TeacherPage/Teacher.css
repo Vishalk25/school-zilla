@@ -5,19 +5,22 @@
 
 .middleContainer {
   width: 100%;
-  margin: 0 12.9em;
+  margin-left: 14.5%;
+  margin-top: 1%;
 }
 
-.topHeader > h1 {
-  padding-left: 20px;
+.topHeader > p {
+  padding-left: 2.5%;
   color: #303972;
+  font-size: 2.2rem;
+  font-weight: bold;
 }
 
 .topHeader {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  margin-right: 30px;
+  margin-right: 2.5%;
 }
 
 .middleHeader {
@@ -74,12 +77,12 @@
   border-radius: 50px;
   color: white;
   height: 40px;
-  width: 130px;
+  width: 12%;
   font-weight: 600;
 }
 
 .teacherList {
-  margin-left: 1.6em;
+  margin-left: 2%;
 }
 
 .teacherListRow1,

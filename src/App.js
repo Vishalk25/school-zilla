@@ -4,6 +4,7 @@ import Student from "./components/Layouts/StudentPage/Student";
 import Teacher from "./components/Layouts/TeacherPage/Teacher";
 
 function App() {
+  // return <div>{true ? <Student /> : <Teacher />}</div>;
   return <div>{false ? <Student /> : <Teacher />}</div>;
 }
 

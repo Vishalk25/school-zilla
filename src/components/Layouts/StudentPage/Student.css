@@ -5,10 +5,12 @@
 
 .middleContainer {
   width: 100%;
+  margin-left: 14.5%;
+  margin-top: 1%;
 }
 
 .topHeader > h2 {
-  padding-left: 20px;
+  padding-left: 2.3%;
   color: #303972;
 }
 
@@ -16,13 +18,13 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
-  margin-right: 30px;
+  margin-right: 2.5%;
 }
 
 .middleHeader {
   display: flex;
   justify-content: space-between;
-  margin: 0 25px 0 25px;
+  margin: 0 2.5% 0 2.5%;
 }
 
 .studentDetail {
@@ -59,7 +61,13 @@
   border: none;
   border-radius: 50px;
   color: white;
-  height: 40px;
-  width: 130px;
+  /* height: 40px; */
+  width: 12%;
   font-weight: 600;
+}
+
+.mainMiddleContainer {
+  display: flex;
+  justify-content: flex-end;
+  width: 100%;
 }
