@@ -5,7 +5,7 @@
 
 .middleContainer {
   width: 100%;
-  margin-left: 14.5%;
+  margin-left: 17.5%;
   margin-top: 1%;
 }
 
@@ -19,12 +19,6 @@
   justify-content: space-between;
   align-items: center;
   margin-right: 2.5%;
-}
-
-.middleHeader {
-  display: flex;
-  justify-content: space-between;
-  margin: 0 2.5% 0 2.5%;
 }
 
 .studentDetail {

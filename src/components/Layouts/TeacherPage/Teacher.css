@@ -68,19 +68,6 @@
   align-items: center;
 }
 
-.addStudent {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  background-color: #5dbc67;
-  border: none;
-  border-radius: 50px;
-  color: white;
-  height: 40px;
-  width: 12%;
-  font-weight: 600;
-}
-
 .teacherList {
   margin-left: 2%;
 }

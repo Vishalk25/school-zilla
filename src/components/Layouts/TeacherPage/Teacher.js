@@ -16,6 +16,8 @@ import TeacherCard from "../../Common/TeacherAvatar/TeacherCard";
 import "./Teacher.css";
 import BottomNavigationBar from "../../Common/BottomNavigationBar/BottomBar";
 import Footer from "../../Common/Footer/Footer";
+import TopBar from "../../Common/TopBar/TopBar";
+import AddNewMemComp from "../../Common/TopBar/AddNewMemComp";
 
 export default function Teacher() {
   return (
@@ -23,36 +25,8 @@ export default function Teacher() {
       <div className="mainContainer">
         <SideBar />
         <div className="middleContainer">
-          <div className="topHeader">
-            <p>Teachers</p>
-            <div className="profileMenu">
-              <IconButton color="primary" aria-label="add an alarm">
-                <NotificationsNoneOutlinedIcon
-                  color="disabled"
-                  style={{ fontSize: "2.5rem" }}
-                />
-              </IconButton>
-              <div className="profileName">
-                <p>
-                  Saurabh k.
-                  <br />
-                  Admin
-                </p>
-              </div>
-              <div className="profileAvatar">
-                <PermIdentityOutlinedIcon
-                  color="disabled"
-                  style={{ fontSize: "2.5rem" }}
-                />
-              </div>
-            </div>
-          </div>
-          <div className="middleHeader">
-            <SearchInput />
-            <ColorButtons parentClassName="addStudent">
-              <AddIcon style={{ fontSize: "2.5rem" }} /> New Teacher
-            </ColorButtons>
-          </div>
+          <TopBar title="Teacher" />
+          <AddNewMemComp buttonTitle="New Teacher" />
           <div className="teacherList">
             <div className="teacherListRow1">
               <TeacherCard
